@@ -1,5 +1,4 @@
-﻿
-namespace InterfaceHomeTask.Task2.Interfaces
+﻿namespace InterfaceHomeTask.Task2.Interfaces
 {
     internal interface IAccount
     {

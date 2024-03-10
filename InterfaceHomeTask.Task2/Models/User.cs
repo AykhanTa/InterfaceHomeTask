@@ -34,7 +34,7 @@ namespace InterfaceHomeTask.Task2.Services
             int countUpper = 0;
             int countLower = 0;
             int isDigit = 0;
-            foreach (var c in Password)
+            foreach (var c in password)
             {
                 if (char.IsDigit(c))
                 {
@@ -67,8 +67,8 @@ namespace InterfaceHomeTask.Task2.Services
 
         public void ShowInfo()
         {
+            Console.WriteLine($"Fullname: {FullName} Email: {Email} Password:{Password}");
 
-            
         }
     }
 }
